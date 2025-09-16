@@ -37,6 +37,12 @@ router.get("/", (req, res) => {
               <h3>Cuenta de Cobro</h3>
               <p>Elabora cuentas de cobro para facturación de servicios prestados</p>
             </a>
+            
+            <a href="/documentos" class="doc-option">
+              <div class="doc-icon">4</div>
+              <h3>Documentos Empresariales</h3>
+              <p>Gestiona y descarga documentos como RUT, certificados, riders técnicos</p>
+            </a>
           </div>
         </div>
       </body>
