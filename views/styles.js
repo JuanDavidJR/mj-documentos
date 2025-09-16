@@ -26,26 +26,27 @@ function getFormCSS() {
     }
     
     .header { 
-  text-align: center; 
-  margin-bottom: 40px; 
-  position: relative; 
-  min-height: 60px;
-}
-
-.back-btn {
-  position: absolute; 
-  left: 0; 
-  top: 5px;
-  color: #00ff44; 
-  text-decoration: none; 
-  font-weight: 500;
-  transition: color 0.3s;
-  z-index: 100;
-  cursor: pointer;
-  padding: 5px 10px;
-  background: rgba(0, 255, 68, 0.1);
-  border-radius: 5px;
-}
+      text-align: center; 
+      margin-bottom: 40px; 
+      position: relative; 
+      min-height: 60px;
+    }
+    
+    .back-btn {
+      position: absolute; 
+      left: 0; 
+      top: 5px;
+      color: #00ff44; 
+      text-decoration: none; 
+      font-weight: 500;
+      transition: color 0.3s;
+      z-index: 100;
+      cursor: pointer;
+      padding: 5px 10px;
+      background: rgba(0, 255, 68, 0.1);
+      border-radius: 5px;
+    }
+    
     .back-btn:hover { color: #00cc36; }
     
     h1 { 
@@ -71,11 +72,22 @@ function getFormCSS() {
       font-size: 14px; letter-spacing: 0.5px; text-transform: uppercase;
     }
     
-    input, textarea, select { 
+    input, textarea { 
       width: 100%; padding: 16px; border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 8px; font-size: 15px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       background: rgba(255, 255, 255, 0.05); color: #ffffff;
       backdrop-filter: blur(10px); font-family: inherit;
+    }
+    
+    select {
+      width: 100%; padding: 16px; border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px; font-size: 15px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      background: #2a2a2a; color: #ffffff;
+      font-family: inherit; cursor: pointer;
+    }
+    
+    select option {
+      background: #2a2a2a; color: #ffffff; padding: 10px;
     }
     
     input::placeholder, textarea::placeholder { color: rgba(255, 255, 255, 0.5); }
