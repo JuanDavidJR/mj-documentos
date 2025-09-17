@@ -1,0 +1,373 @@
+{
+  "sistema_principal": [
+    {
+      "id": "sq6",
+      "nombre": "Consola Digital ALLAN & HEAT SQ6",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "drv4800",
+      "nombre": "Procesador D.S.P. DRIVE RACK 4800",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "ca9",
+      "nombre": "Amplificadores Crest audio CA9",
+      "cantidad": 6,
+      "disponible": 6,
+      "estado": "disponible"
+    },
+    {
+      "id": "ca12",
+      "nombre": "Amplificadores Crest audio CA12",
+      "cantidad": 4,
+      "disponible": 4,
+      "estado": "disponible"
+    }
+  ],
+  "line_array": [
+    {
+      "id": "d3215",
+      "nombre": "SOUND KING D3215",
+      "cantidad": 12,
+      "disponible": 12,
+      "estado": "disponible"
+    },
+    {
+      "id": "hdl20a",
+      "nombre": "TIPO HDL20A",
+      "cantidad": 12,
+      "disponible": 12,
+      "estado": "disponible"
+    },
+    {
+      "id": "sub18",
+      "nombre": "Sistema de bajos EIGHTEENSOUND 18\"",
+      "cantidad": 12,
+      "disponible": 12,
+      "estado": "disponible"
+    }
+  ],
+  "monitores": [
+    {
+      "id": "m32",
+      "nombre": "Consola Digital MIDAS M32",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "drv260",
+      "nombre": "Procesador D.S.P. DRIVE RACK 260",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "psm300",
+      "nombre": "InEar SHURE PSM300",
+      "cantidad": 3,
+      "disponible": 3,
+      "estado": "disponible"
+    },
+    {
+      "id": "p2",
+      "nombre": "InEar BEHRINGER P2",
+      "cantidad": 8,
+      "disponible": 8,
+      "estado": "disponible"
+    },
+    {
+      "id": "nx750",
+      "nombre": "Monitores YORKVILLE NX750",
+      "cantidad": 12,
+      "disponible": 12,
+      "estado": "disponible"
+    },
+    {
+      "id": "subyor",
+      "nombre": "Sub doble YORKVILLE",
+      "cantidad": 2,
+      "disponible": 2,
+      "estado": "disponible"
+    }
+  ],
+  "microfonia": [
+    {
+      "id": "beta58",
+      "nombre": "SHURE Beta 58",
+      "cantidad": 4,
+      "disponible": 4,
+      "estado": "disponible"
+    },
+    {
+      "id": "beta57",
+      "nombre": "SHURE Beta 57",
+      "cantidad": 10,
+      "disponible": 10,
+      "estado": "disponible"
+    },
+    {
+      "id": "sm58",
+      "nombre": "SHURE SM 58",
+      "cantidad": 4,
+      "disponible": 4,
+      "estado": "disponible"
+    },
+    {
+      "id": "sm57",
+      "nombre": "SHURE SM 57",
+      "cantidad": 8,
+      "disponible": 8,
+      "estado": "disponible"
+    },
+    {
+      "id": "beta91a",
+      "nombre": "SHURE Beta 91A",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "beta52a",
+      "nombre": "SHURE Beta 52A",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "tgv70d",
+      "nombre": "BEYERDYNAMIC TGV70D VOZ",
+      "cantidad": 4,
+      "disponible": 4,
+      "estado": "disponible"
+    },
+    {
+      "id": "c518",
+      "nombre": "AKG C518 CON CLAN",
+      "cantidad": 2,
+      "disponible": 2,
+      "estado": "disponible"
+    },
+    {
+      "id": "e904",
+      "nombre": "SENHEISER E904",
+      "cantidad": 2,
+      "disponible": 2,
+      "estado": "disponible"
+    },
+    {
+      "id": "atm350",
+      "nombre": "AUDIOTECHNICA ATM350",
+      "cantidad": 5,
+      "disponible": 5,
+      "estado": "disponible"
+    },
+    {
+      "id": "at2020",
+      "nombre": "AUDIOTECHNICA AT2020 CORAL",
+      "cantidad": 7,
+      "disponible": 7,
+      "estado": "disponible"
+    },
+    {
+      "id": "v7",
+      "nombre": "SE ELECTRONICS V7",
+      "cantidad": 4,
+      "disponible": 4,
+      "estado": "disponible"
+    },
+    {
+      "id": "samson7",
+      "nombre": "KIT DRUMS SAMSON 7 UNIDADES",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "blx24",
+      "nombre": "SHURE INALAMBRICO SM58 BLX24",
+      "cantidad": 2,
+      "disponible": 2,
+      "estado": "disponible"
+    },
+    {
+      "id": "qlxd4",
+      "nombre": "SHURE INALAMBRICO SM58 QLXD4",
+      "cantidad": 2,
+      "disponible": 2,
+      "estado": "disponible"
+    },
+    {
+      "id": "dbxact",
+      "nombre": "CAJAS DIRECTAS dbx ACTIVAS",
+      "cantidad": 8,
+      "disponible": 8,
+      "estado": "disponible"
+    },
+    {
+      "id": "imp2",
+      "nombre": "CAJAS DIRECTAS WHIRLWIND IMP2",
+      "cantidad": 6,
+      "disponible": 6,
+      "estado": "disponible"
+    }
+  ],
+  "iluminacion": [
+    {
+      "id": "martin",
+      "nombre": "Consola Martin PC INTERFAZ MARTIN M-TOUCH",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "dimmer",
+      "nombre": "Dimmer TEI DMX DIM 8 CHANNELS",
+      "cantidad": 3,
+      "disponible": 3,
+      "estado": "disponible"
+    },
+    {
+      "id": "k10",
+      "nombre": "Cabezas móvil K10 19x15W LED",
+      "cantidad": 10,
+      "disponible": 10,
+      "estado": "disponible"
+    },
+    {
+      "id": "beam230",
+      "nombre": "Cabezas móvil BEAM 230 7R",
+      "cantidad": 20,
+      "disponible": 20,
+      "estado": "disponible"
+    },
+    {
+      "id": "beam5r",
+      "nombre": "Cabezas móviles BEAM ELATIUM PLATINUM 5R",
+      "cantidad": 6,
+      "disponible": 6,
+      "estado": "disponible"
+    },
+    {
+      "id": "aura",
+      "nombre": "Cabezas móvil AURA 19x15W RGBW",
+      "cantidad": 8,
+      "disponible": 8,
+      "estado": "disponible"
+    },
+    {
+      "id": "led108",
+      "nombre": "Cabezas móviles LED RGBW 108",
+      "cantidad": 8,
+      "disponible": 8,
+      "estado": "disponible"
+    },
+    {
+      "id": "par3w",
+      "nombre": "Par LED 3 WATT",
+      "cantidad": 42,
+      "disponible": 42,
+      "estado": "disponible"
+    },
+    {
+      "id": "parcom",
+      "nombre": "Par COM LUZ BLANCA",
+      "cantidad": 10,
+      "disponible": 10,
+      "estado": "disponible"
+    },
+    {
+      "id": "blinder",
+      "nombre": "Blinder DE 4 LAMPARAS CON DMX",
+      "cantidad": 4,
+      "disponible": 4,
+      "estado": "disponible"
+    },
+    {
+      "id": "humo",
+      "nombre": "Maquina de humo F1500L PL Pro",
+      "cantidad": 2,
+      "disponible": 2,
+      "estado": "disponible"
+    },
+    {
+      "id": "splitter",
+      "nombre": "SPLITTER DMX SEÑAL",
+      "cantidad": 4,
+      "disponible": 4,
+      "estado": "disponible"
+    },
+    {
+      "id": "strobo",
+      "nombre": "Atomic Strobo Skypix 3000",
+      "cantidad": 24,
+      "disponible": 24,
+      "estado": "disponible"
+    }
+  ],
+  "video": [
+    {
+      "id": "led39i",
+      "nombre": "PANTALLA LED 3.9 PISS 4X3 MTS INDOR",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "led32o",
+      "nombre": "PANTALLA LED 3X2 MTS OUTDOOR",
+      "cantidad": 2,
+      "disponible": 2,
+      "estado": "disponible"
+    },
+    {
+      "id": "linsn",
+      "nombre": "PROCESADORES LINSN",
+      "cantidad": 2,
+      "disponible": 2,
+      "estado": "disponible"
+    },
+    {
+      "id": "novastar",
+      "nombre": "PROCESADORES NOVASTAR",
+      "cantidad": 2,
+      "disponible": 2,
+      "estado": "disponible"
+    },
+    {
+      "id": "laptop",
+      "nombre": "PC PORTATIL ASUS TUF GAMING A15",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    }
+  ],
+  "infraestructura": [
+    {
+      "id": "tarima",
+      "nombre": "TARIMA 11mt x 10mt Altura 1,80mt",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "techo",
+      "nombre": "TECHO 11,50mt x 10,50mt Altura 9mt",
+      "cantidad": 1,
+      "disponible": 1,
+      "estado": "disponible"
+    },
+    {
+      "id": "sobretarima",
+      "nombre": "SOBRETARIMAS 2,50X1,80X60 MTS",
+      "cantidad": 4,
+      "disponible": 4,
+      "estado": "disponible"
+    }
+  ]
+}

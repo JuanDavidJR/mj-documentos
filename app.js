@@ -8,6 +8,7 @@ const cotizacionRoutes = require("./routes/cotizaciones");
 const contratoRoutes = require("./routes/contratos");
 const cuentaCobroRoutes = require("./routes/cuentas-cobro");
 const documentosRoutes = require("./routes/documentos");
+const inventarioRoutes = require("./routes/inventario");
 
 // Importar utilidades
 const { validarArchivos } = require("./utils/validators");
@@ -21,6 +22,7 @@ app.use("/", cotizacionRoutes);
 app.use("/", contratoRoutes);
 app.use("/", cuentaCobroRoutes);
 app.use("/", documentosRoutes);
+app.use("/", inventarioRoutes);
 
 // Middleware de manejo de errores
 app.use((error, req, res, next) => {
