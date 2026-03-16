@@ -8,7 +8,7 @@ function generarCuentaCobroPDF(req, res) {
   try {
     const { deudor, acreedor, nit, cedula, valorTotal, concepto, fechaEvento, observaciones } = req.body;
     
-    if (!deudor || !acreedor || !nit || !cedula || !valorTotal || !concepto || !fechaEvento) {
+    if (!deudor || !acreedor || !nit || !cedula || !valorTotal || !concepto ) {
       return res.status(400).send("Faltan campos obligatorios");
     }
     
