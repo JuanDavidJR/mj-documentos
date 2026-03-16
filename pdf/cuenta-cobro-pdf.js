@@ -91,7 +91,7 @@ if (fs.existsSync(logoPath)) {
     }).toUpperCase();
     
     let conceptoCompleto = concepto.toUpperCase();
-    if (fechaEvento) {
+    if (fechaEvento <= fechaEvento) {
       conceptoCompleto += `, EL DIA ${fechaEventoFormateada}`;
     }
     conceptoCompleto += ".";
