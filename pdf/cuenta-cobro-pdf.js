@@ -6,7 +6,8 @@ const { formatearNumero, numeroEnPalabras } = require("../utils/formatters");
 
 function generarCuentaCobroPDF(req, res) {
   try {
-    const { deudor, acreedor, nit, cedula, valorTotal, concepto, fechaEvento, observaciones } = req.body;
+    const { deudor, acreedor, nit, cedula, valorTotal, concepto, fechaEvento, observaciones, includeLogo } = req.body;
+    const mostrarLogo = includeLogo !== 'false';
     
     if (!deudor || !acreedor || !nit || !cedula || !valorTotal || !concepto ) {
       return res.status(400).send("Faltan campos obligatorios");
@@ -46,7 +47,7 @@ doc.text("PAMPLONA, NORTE DE SANTANDER", margin, currentY + 30, { align: "left",
 doc.text(fechaHoy, margin, currentY + 60, { align: "left", width: 120 });
 
 // Logo a la derecha
-if (fs.existsSync(logoPath)) {
+if (mostrarLogo && fs.existsSync(logoPath)) {
   doc.image(logoPath, pageWidth - margin - 120, currentY, { width: 120 });
 }
     currentY += 120;
