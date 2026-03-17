@@ -14,6 +14,60 @@ router.get("/cuenta-cobro-form", (req, res) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cuenta de Cobro - MJ Sonido Profesional</title>
         <style>${getFormCSS()}</style>
+        <style>
+          .logo-toggle-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 20px;
+          }
+          .logo-toggle-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #444;
+          }
+          .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 52px;
+            height: 28px;
+            flex-shrink: 0;
+          }
+          .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+          }
+          .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: #ccc;
+            border-radius: 28px;
+            transition: 0.3s;
+          }
+          .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            border-radius: 50%;
+            transition: 0.3s;
+          }
+          .toggle-switch input:checked + .toggle-slider {
+            background-color: #2d6a4f;
+          }
+          .toggle-switch input:checked + .toggle-slider:before {
+            transform: translateX(24px);
+          }
+        </style>
       </head>
       <body>
         <div class="container">
@@ -68,6 +122,16 @@ router.get("/cuenta-cobro-form", (req, res) => {
               <textarea id="observaciones" name="observaciones" placeholder="Información adicional sobre el cobro"></textarea>
             </div>
             
+            <input type="hidden" id="includeLogo" name="includeLogo" value="true" />
+            
+            <div class="logo-toggle-group">
+              <span class="logo-toggle-label">Incluir logo en el PDF</span>
+              <label class="toggle-switch">
+                <input type="checkbox" id="logoToggle" checked onchange="document.getElementById('includeLogo').value = this.checked ? 'true' : 'false'" />
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+            
             <button type="submit">Generar Cuenta de Cobro PDF</button>
           </form>
         </div>
@@ -80,7 +144,6 @@ router.get("/cuenta-cobro-form", (req, res) => {
           }
           
           document.getElementById('valorTotal').addEventListener('input', mostrarTotal);
-          
           document.getElementById('documentForm').addEventListener('submit', function(e) {
             const valorTotal = parseFloat(document.getElementById('valorTotal').value);
             if (valorTotal <= 0) {
