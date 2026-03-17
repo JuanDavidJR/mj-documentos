@@ -80,7 +80,6 @@ router.get("/cuenta-cobro-form", (req, res) => {
           }
           
           document.getElementById('valorTotal').addEventListener('input', mostrarTotal);
-          document.getElementById('fechaEvento').min = new Date().toISOString().split('T')[0];
           
           document.getElementById('documentForm').addEventListener('submit', function(e) {
             const valorTotal = parseFloat(document.getElementById('valorTotal').value);
