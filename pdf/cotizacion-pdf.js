@@ -9,7 +9,7 @@ function generarCotizacionPDF(req, res) {
     const { cliente, servicios, fecha, lugar, horaInicio, horaFin, valorTotal, observaciones } = req.body;
     
     // Validaciones del servidor
-    if (!cliente || !servicios || !fecha || !valorTotal) {
+    if (!cliente || !servicios || !valorTotal) {
       return res.status(400).send("Faltan campos obligatorios");
     }
     
