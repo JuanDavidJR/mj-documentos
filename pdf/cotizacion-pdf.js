@@ -47,14 +47,24 @@ function generarCotizacionPDF(req, res) {
 doc.fontSize(12).font("Times-Roman");
 doc.text("PAMPLONA", textMargin, currentY + 25, { align: "left", width: 200 });
 
-const fechaObj = new Date(fecha);
-const fechaFormateada = fechaObj.toLocaleDateString("es-CO", { 
-  day: "2-digit", 
-  month: "long", 
-  year: "numeric" 
+// Fecha de HOY (cuando se genera el PDF)
+const hoy = new Date();
+const fechaHoy = hoy.toLocaleDateString("es-CO", {
+  day: "2-digit",
+  month: "long",
+  year: "numeric"
 }).toUpperCase();
 
-doc.text(`${fechaFormateada}`, textMargin, currentY + 40, { align: "left", width: 200 });
+doc.text(`${fechaHoy}`, textMargin, currentY + 40, { align: "left", width: 200 });
+
+// Fecha del EVENTO (para usar más abajo en el cuerpo)
+const fechaObj = new Date(fecha + 'T00:00:00');
+const fechaFormateada = fechaObj.toLocaleDateString("es-CO", {
+  day: "2-digit",
+  month: "long",
+  year: "numeric"
+}).toUpperCase();
+
 
     // Logo a la derecha
     if (fs.existsSync(logoPath)) {
